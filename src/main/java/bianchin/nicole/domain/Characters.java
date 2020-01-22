@@ -14,4 +14,19 @@ public class Characters {
         this.armor = armor;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public Points getPoints() {
+        return points;
+    }
+
+    public Weapon getWeapon() {
+        return weapon;
+    }
+
+    public Armor getArmor() {
+        return armor;
+    }
 }
