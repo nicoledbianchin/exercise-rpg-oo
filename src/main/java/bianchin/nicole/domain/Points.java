@@ -14,4 +14,19 @@ public class Points {
         this.concentrationPoints = concentrationPoints;
     }
 
+    public int getForcePoints() {
+        return forcePoints;
+    }
+
+    public int getAgilityPoints() {
+        return agilityPoints;
+    }
+
+    public int getCharismaPoints() {
+        return charismaPoints;
+    }
+
+    public int getConcentrationPoints() {
+        return concentrationPoints;
+    }
 }
