@@ -23,9 +23,8 @@ public class CharacterCreatorService {
         return formatOutput(attackCharacter);
     }
 
-    public String formatOutput(Characters character){
-        String result = character.getName() + "/nForça: " + character.getPoints().getForcePoints() + "/nAgilidade: " + character.getPoints().getAgilityPoints() + "/nCarisma: " + character.getPoints().getCharismaPoints() + "/nConcentração: " + character.getPoints().getConcentrationPoints() + "/nArma: " + character.getWeapon() + "/nArmadura: " + character.getArmor();
-        return result;
+    private String formatOutput(Characters character){
+        return character.getName() + "\nPontos\n  Força: " + character.getPoints().getForcePoints() + "\n  Agilidade: " + character.getPoints().getAgilityPoints() + "\n  Carisma: " + character.getPoints().getCharismaPoints() + "\n  Concentração: " + character.getPoints().getConcentrationPoints() + "\nArma:\n  Nome: " + character.getWeapon().getName() + "\n  Pontos: " + character.getWeapon().getAttackPoints() + "\nArmadura:\n  Nome: " + character.getArmor().getName() + "\n  Pontos: " + character.getArmor().getDefensePoints();
     }
 
 }
