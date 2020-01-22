@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34c31ec5-9610-4a31-9925-8f0b46ba6a1d" name="Default Changelist" comment="" />
+    <list default="true" id="34c31ec5-9610-4a31-9925-8f0b46ba6a1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bianchin/nicole/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bianchin/nicole/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bianchin/nicole/domain/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bianchin/nicole/domain/Armor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bianchin/nicole/domain/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bianchin/nicole/domain/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bianchin/nicole/service/CharacterCreatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bianchin/nicole/service/CharacterCreatorService.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +49,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.bianchin.nicole.Application" />
+      <module name="exercise-rpg-oo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.bianchin.nicole.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -53,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579697404923</updated>
-      <workItem from="1579697406095" duration="3976000" />
+      <workItem from="1579697406095" duration="5919000" />
     </task>
     <servers />
   </component>
