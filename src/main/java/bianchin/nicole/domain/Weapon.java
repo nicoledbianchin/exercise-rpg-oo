@@ -10,4 +10,12 @@ public class Weapon {
         this.attackPoints = attackPoints;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAttackPoints() {
+        return attackPoints;
+    }
+
 }

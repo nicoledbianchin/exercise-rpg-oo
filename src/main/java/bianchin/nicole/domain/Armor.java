@@ -10,4 +10,12 @@ public class Armor {
         this.defensePoints = defensePoints;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getDefensePoints() {
+        return defensePoints;
+    }
+
 }
