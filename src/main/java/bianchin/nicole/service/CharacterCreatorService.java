@@ -15,4 +15,14 @@ public class CharacterCreatorService {
         return defenseCharacter;
     }
 
+    public Characters createAttackCharacter(){
+        Points characterPoints = new Points(50, 30, 2, 10);
+        Weapon weapon = new Weapon("Faca de cozinha enferrujada", 30);
+        Armor armor = new Armor("Armadura de Couro de Capivara", 50);
+        Characters attackCharacter = new Characters("ROmilda, a destruidora", characterPoints, weapon, armor);
+        return attackCharacter;
+    }
+
+
+
 }
