@@ -3,9 +3,9 @@ package main.java.bianchin.nicole.domain;
 public class Armor {
 
     private String name;
-    private Points defensePoints;
+    private int defensePoints;
 
-    public Armor(String name, Points defensePoints){
+    public Armor(String name, int defensePoints){
         this.name = name;
         this.defensePoints = defensePoints;
     }

@@ -1,13 +1,13 @@
 package main.java.bianchin.nicole.domain;
 
-public class Character {
+public class Characters {
 
     private String name;
     private Points points;
     private Weapon weapon;
     private Armor armor;
 
-    public Character (String name, Points points, Weapon weapon, Armor armor){
+    public Characters(String name, Points points, Weapon weapon, Armor armor) {
         this.name = name;
         this.points = points;
         this.weapon = weapon;
